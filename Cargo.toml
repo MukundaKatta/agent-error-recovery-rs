@@ -1,0 +1,12 @@
+[package]
+name = "agent-error-recovery"
+version = "0.1.0"
+edition = "2021"
+description = "Composable error recovery strategies for LLM agent tool calls"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-error-recovery-rs"
+keywords = ["llm", "agent", "error", "recovery", "retry"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
