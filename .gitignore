@@ -1,1 +1,4 @@
 /target
+
+# A library crate should not commit its lockfile.
+Cargo.lock
